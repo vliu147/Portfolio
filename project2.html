@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project 2</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9
+        }
+
+        .tools-header h2 {
+    font-family: 'Playfair Display', serif;
+    color: #38488e; 
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.tools-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tools-list li {
+    background-color: #ffffff; 
+    border: 1px solid #c8e6c9; 
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 10px;
+    color: #384f8e;
+    font-size: 1.1em;
+}
+
+#head h1 {
+    position: relative;
+    color: #adbce9;
+    font-weight: 900;
+    font-size: 7em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 5.5em;
+    text-shadow: 2px 2px 5px #ade6d8, 0 0 25px black, 0 0 5px #82aaa0;
+    z-index: 2; 
+    margin: 0;
+    padding: 0;
+}
+   
+.tools-container {
+    flex: 1;
+    max-width: 300px; 
+    background-color: #e1e0f2; 
+    border: 1px solid #b9c5fb; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+    </style>
+</head>
+
+<body>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="icon-bar">
+  <a class="active" href="index.html"><i class="fa fa-home"></i>
+
+    <span> Home</span>
+    </a>
+</div>
+
+
+<div id="head" class="goal">
+    <div class="overlay"></div>
+    <h1>DailyFocus</h1>
+</div>
+
+<section id="project-details">
+    <div class="container">
+        <div class="details-content">
+            <div class="tools-container">
+                <div class="tools-header">
+                    <h2>Tools Used</h2>
+                </div>
+                <div class="tools-list">
+                    <ul>
+                        <li>Firebase</li>
+                        <li>React</li>
+                        <li>SendGrid</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-description">
+                <div class="section">
+                    <h3>What is this Project?</h3>
+                    <p>The DailyFocus web-app is a project that lets users create their own accounts, which links to their emails and can be sent reminders
+                        about goals they have created. The app allows for dynamic customizaion through adjusable tables, designated filters and setting changes, such as 
+                        deadline notification frequency and filtering goals by subjects. There is also a stastics page to get an overview of every goal previously set.
+                    </p>
+                </div>
+                <div class="section">
+                    <h3>Why did we choose this?</h3>
+                    <p>This project was created to encourage people with busy schedules to keep track of goals they make and be motivated to complete them. This app 
+                        would give you reminders and have you set reasons for your goals so that the user can always be reminded why they started or created their
+                        goal in the first place. originally, this was intended for college students as they are in a big transitional part of their lives and often have a 
+                        lot going on, but can be used by anyone.
+                    </p>
+                </div>
+                <div class="section">
+                    <h3>How does it work?</h3>
+                    <p>The app works by first having users create an account that is linked with firebase on the backend. This creates a unique id for the individual
+                        and can be tracked for any potential administrative changes needed for the user. The email used in account creation is then conncted with SendGrid to 
+                        allow for emails to be sent whenever the user chooses. Within the app contains main and subtasks that can be be organized by creation date, priority or
+                        other filter settings.
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/Tasks.png" alt="Image 1" style="width:100%">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script src="js/scripts.js"></script>
+</body> 
+</html>
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GrowBox</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9
+        }
+    </style>
+</head>
+
+<body>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="icon-bar">
+  <a class="active" href="index.html"><i class="fa fa-home"></i>
+
+    <span> Home</span>
+    </a>
+</div>
+
+
+<div id="head" class="plant">
+    <div class="overlay"></div>
+    <h1>GrowBox</h1>
+</div>
+
+<section id="project-details">
+    <div class="container">
+        <div class="details-content">
+            <div class="tools-container">
+                <div class="tools-header">
+                    <h2>Tools Used</h2>
+                </div>
+                <div class="tools-list">
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>AWS EC2</li>
+                        <li>MySQL</li>
+                        <li>Arduino Nano </li>
+                        <li>I2C Sensors</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-description">
+                <div class="section">
+                    <h3>What is this Project?</h3>
+                    <p>The GrowBox is a project that started with the idea of creating a self sustainable plant care system. This device would address
+                        the needs of people who want to care for plants while being away from home for long periods of time. Some of the main goals involved were to provide adequate
+                        lighting for the plant, integrate an automatic watering system and to track real time metrics of the plant through an app or webpage. 
+                    </p>
+                </div>
+                <div class="section">
+                    <h3>Why did we choose this?</h3>
+                    <p>This project allows for users to have improved plant growth while reducing the necessary resources required to maintain them. This includes 
+                        remote monitoring and controls through interconnected devices for ease of convenience. Data will also be collected at intervals chosen by the user 
+                        and stored to let users find patterns throughtout the plant life cycle. 
+                    </p>
+                </div>
+                <div class="section">
+                    <h3>How does it work?</h3>
+                    <p>The project was developed using a combination of modern web technologies, including React for the front end and MySQL for the back end. 
+                        It employs RESTful APIs to fetch and manage data, ensuring a seamless user experience. The app contains a dashboard for multiple devices, a statistics page
+                        for data examination and a login page for data security with unique user specifications. The data is collected through the Arduino Nano and stored in a MySQL database
+                        on the EC2 server. The box works by attaching a power supply and using sensors to track data and adding necessary components, such as a water pump, to ensure the plant survival. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/Block2.PNG" alt="Image 1" style="width:100%">
+            </div>
+            <!-- <div class="mySlides fade">
+                <img src="images/DesignBox.png" alt="Image 2" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/Calender1.jpg" alt="Image 3" style="width:100%">
+            </div> -->
+            <!-- Add more slides as needed -->
+
+            <!-- Navigation buttons -->
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+            <!-- Dots for indicators -->
+            <!-- <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                Add more dots as needed -->
+            <!-- </div>  -->
+        </div>
+    </div>
+</section>
+
+<script src="js/scripts.js"></script>
+</body> 
+</html>
+
